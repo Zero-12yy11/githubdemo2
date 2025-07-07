@@ -1,0 +1,164 @@
+
+body {
+    background-color: #f0f7ff; 
+    max-width: 1000px;
+    line-height: 1.6;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header img{
+    border-radius: 50%;
+    border: 3px solid #0770cc;
+    width: 80px;
+    height: 80px;
+    float: right;
+    margin-right: 20px;
+    margin-top: -35px;
+}
+
+.about img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 20px;
+    border: 3px solid #e485ec; 
+}
+
+
+
+.header {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 3px 11px rgba(0,0,0,0.1);
+    border-radius: 20px;
+}
+
+.header h1 {
+    color: #2c3e50; 
+    border-bottom: 2px solid #3498db; 
+}
+
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.nav li {
+    list-style: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+}
+
+
+
+.nav li:hover {
+    background: #3498db;
+    color: white;
+
+}
+
+.nav li:link {
+    background: #3498db;
+    color: rgb(239, 4, 4);
+
+}
+
+.nav li:visited {
+    background: #3498db;
+    color: rgb(137, 4, 239);
+
+}
+
+.nav li:hover a {
+    color: white;
+}
+
+
+.profile {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin: 2rem 0;
+}
+
+
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #3498db;
+}
+
+select, textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+
+
+input[type="checkbox"] {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.biji {
+    background: #fff;
+    padding: 2px;
+    /* border-radius: 15px; */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 2px;
+    border-radius: 30px;
+}
+
+.biji li {
+    padding: 10px;
+    margin: 5px 0;
+    border-left: 4px solid #3498db;
+}
+
+.biji li:hover {
+    background: #e8f4fc;
+    color: #e485ec;
+}
+
+.biji li:link {
+    background: #e8f4fc;
+    color: #85ec94;
+}
+
+.biji li:visited {
+    background: #e8f4fc;
+    color: #f0cf7d;
+}
+
+.footer {
+    background: #2d3f51;
+}
+
+.footer p{
+    color: rgb(250, 249, 249);
+    text-align: center;
+}
+.checkbox-group {
+    display: flex;
+}
+
+

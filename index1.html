@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>大学生任务清单</title>
+    <style>
+
+        .hidden { 
+            display: none; 
+        }
+        
+        table {
+            border-collapse: collapse;
+            margin: 30px auto;
+            width: 60%;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            background: white;
+        }
+
+        th, td {
+            padding: 18px;
+            text-align: center;
+            font-size: 18px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        th {
+            background-color: #5a7fff;
+            color: white;
+            font-weight: 700;
+        }
+
+        td {
+            background-color: #f8faff;
+            color: #2c3e50;
+            transition: all 0.2s;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div id="Table1" class="hidden">
+        <table>
+            <thead>
+                <tr>
+                    <th>任务名称</th>
+                    <th>状态</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>完成课后作业</td>
+                    <td>未开始</td>
+                </tr>
+                <tr>
+                    <td>准备期末考试</td>
+                    <td>进行中</td>
+                </tr>
+                <tr>
+                    <td>参加社团活动</td>
+                    <td>已完成</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
